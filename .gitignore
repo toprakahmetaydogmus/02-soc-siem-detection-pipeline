@@ -14,11 +14,12 @@ logs/
 *.vmem
 *.raw
 
-# OS & Build
+# Python & Build
 .DS_Store
 Thumbs.db
 __pycache__/
 *.pyc
+.pytest_cache/
 node_modules/
 dist/
 build/
