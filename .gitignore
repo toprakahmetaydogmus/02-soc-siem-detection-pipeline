@@ -1,0 +1,27 @@
+# Environments & Secrets
+.env
+.env.local
+*.key
+*.pem
+*.pfx
+secrets.yaml
+
+# Data & Logs
+*.log
+data/
+logs/
+*.pcap
+*.vmem
+*.raw
+
+# OS & Build
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.terraform/
+*.tfstate
+*.tfstate.backup
